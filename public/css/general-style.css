@@ -1,0 +1,116 @@
+/* Buat layout */
+a:link {
+    text-decoration: none;
+}
+
+/* Buat login & register */
+.register-ask {
+    margin-top: 15px;
+    display: flex;
+}
+
+/* Buat home page */
+#searchInput {
+    margin: 15px 0;
+}
+
+.product-part, #product-, #product-card {
+    margin-block: 7px;
+}
+
+.product-part img {
+    height: 280px;
+    padding: 10px;
+}
+
+#product-top {
+    background-color: rgb(247, 247, 247);
+    
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#product-top, #product-bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#product-top p, .text {
+    margin-bottom: 0;
+    
+    color: black;
+}
+
+#product-top p, #product-card {
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+/* Buat detail page */
+#product-data {
+    display: flex;
+}
+
+.product-data img {
+    width: 200px;
+    height: 220px;
+
+    margin-inline: 2rem;
+}
+
+td {
+    vertical-align: top;
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.description {
+    font-weight: normal;
+    margin-inline: 10rem;
+}
+
+/* Buat cart page */
+#cart-product {
+    width: 600px;
+    display: block;
+}
+
+.cart-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #f9f9f9;
+    border-radius: 5%;
+}
+
+.cart-img img {
+    height: 180px;
+}
+
+.detail-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#delete-logo {
+    width: 22px;
+    height: 22px;
+}
+
+.cart-total {
+    margin: 0 1.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-block: 1rem;
+
+    background-color: rgb(247, 247, 247);
+}
